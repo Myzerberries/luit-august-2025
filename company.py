@@ -1,4 +1,4 @@
-from employee import Employee
+from employee import Employee, SalaryEmployee, HourlyEmployee, CommissionEmployee
 
 class Company:
     def __init__(self):
@@ -23,13 +23,13 @@ class Company:
 def main():
     my_company = Company()
 
-    employee1 = Employee("Geoff", "Jefferson", 1000000000)
+    employee1 = SalaryEmployee("Geoff", "Jefferson", 1000000000)
     my_company.add_employee(employee1)
 
-    employee2 = Employee("Jeff", "Jefferson", 1000000000)
+    employee2 = HourlyEmployee("Jeff", "Jefferson", 25, 50)
     my_company.add_employee(employee2)
 
-    employee3 = Employee("Joff", "Jefferson", 1000000000)
+    employee3 = CommissionEmployee("Joff", "Jefferson", 30000, 5, 200)
     my_company.add_employee(employee3)
 
     print(my_company.employees)
