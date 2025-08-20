@@ -1,0 +1,12 @@
+IDE - Integrated Development Environment
+OOP - Object Oriented Programming
+UX - User Experience
+JSON - JavaScript Object Notation
+FIFO - First in First out
+LIFO - Last in First out
+TDD - Test Driven Development
+SaaS - Software as a service
+PaaS - Platform as a service
+IaaS - Infrastructure as a serviceML - Machine Learning
+ML - Machine Learning
+AI - Artificial Intelligence
